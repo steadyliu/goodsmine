@@ -42,7 +42,7 @@
         <div class="login1">
 	      <div class="login2">
             <div class="loginTopDiv">
-              <span class="loginTop">传智会员登录</span>
+              <span class="loginTop">网上商城登陆</span>
               <span>
                 <a href="<c:url value='/jsps/user/regist.jsp'/>" class="registBtn"></a>
               </span>
