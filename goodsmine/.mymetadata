@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="goodsmine"
+  id="myeclipse.1498363341581"
+  context-root="/goodsmine"
+  j2ee-spec="6.0"
+  archive="goodsmine.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
