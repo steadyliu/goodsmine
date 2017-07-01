@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="<c:url value='/css/css.css'/>">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/jsps/css/user/pwd.css'/>">
 	<script type="text/javascript" src="<c:url value='/jquery/jquery-1.5.1.js'/>"></script>
-	<script type="text/javascript" src="<c:url value='/jsps/js/user/pwd.js'/>"></script>
+	<!--  <script type="text/javascript" src="<c:url value='/jsps/js/user/pwd.js'/>"></script> -->
 	<script src="<c:url value='/js/common.js'/>"></script>
   </head>
   
@@ -42,12 +42,12 @@
 			</tr>
 			<tr>
 				<td align="right">新密码:</td>
-				<td><input class="input" type="password" name="newpass" id="newpass" value="${user.newpass }""/></td>
+				<td><input class="input" type="password" name="newpass" id="newpass" value="${user.newpass }"/></td>
 				<td><label id="newpassError" class="error"></label></td>
 			</tr>
 			<tr>
 				<td align="right">确认密码:</td>
-				<td><input class="input" type="password" name="reloginpass" id="reloginpass" value="${user.reloginpass }""/></td>
+				<td><input class="input" type="password" name="reloginpass" id="reloginpass" value="${user.reloginpass }"/></td>
 				<td><label id="reloginpassError" class="error"></label></td>
 			</tr>
 			<tr>
@@ -60,7 +60,7 @@
 			<tr>
 				<td align="right">验证码:</td>
 				<td>
-				  <input class="input" type="text" name="verifyCode" id="verifyCode" value="${user.verifyCode }""/>
+				  <input class="input" type="text" name="verifyCode" id="verifyCode" value="${user.verifyCode }"/>
 				</td>
 				<td><label id="verifyCodeError" class="error"></label></td>
 			</tr>

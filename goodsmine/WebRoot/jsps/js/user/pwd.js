@@ -1,4 +1,5 @@
 $(function() {	
+alert(">>>>>?XXX");
 	/*
 	 * 1. 给注册按钮添加submit()事件，完成表单校验
 	 */
@@ -110,7 +111,7 @@ function validateVerifyCode() {
 			type: "POST",
 			dataType: "json",
 			data: {method: "ajaxValidateVerifyCode", verifyCode: value},
-			url: "/goods/UserServlet",
+			url: "/goodsmine/UserServlet",
 			success: function(flag) {
 				if(!flag) {
 					$("#verifyCodeError").css("display", "");
